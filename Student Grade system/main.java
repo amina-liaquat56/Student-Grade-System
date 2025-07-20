@@ -1,34 +1,33 @@
 import java.util.Scanner;
-
 public class main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        // Get student info
+                //  student info
         System.out.print("Enter student name: ");
         String name = input.nextLine();
 
         System.out.print("Enter roll number: ");
         String rollNo = input.nextLine();
 
-        // Subjects
+                    // Subjects
         System.out.print("Enter number of subjects: ");
         int numSubjects = input.nextInt();
 
         int[] marks = new int[numSubjects];
         int total = 0;
 
-        // Get marks
+                   // Get marks
         for (int i = 0; i < numSubjects; i++) {
             System.out.print("Enter marks for subject " + (i + 1) + ": ");
             marks[i] = input.nextInt();
             total += marks[i];
         }
 
-        // Calculate average
+                 // Calculate average
         double average = (double) total / numSubjects;
 
-        // Determine grade
+                   // Determine grade
         String grade;
         if (average >= 90) {
             grade = "A+";
