@@ -2,7 +2,7 @@
 
 This is a simple **console-based Java application** that allows users to input student details, enter subject marks, and calculate the **total marks**, **average**, and **grade** based on predefined criteria.
 
-## 🚀 Features
+## Features
 
 - Input student name and roll number
 - Enter marks for any number of subjects
@@ -12,11 +12,11 @@ This is a simple **console-based Java application** that allows users to input s
   - Grade (A+, A, B, C, D, F)
 - Clean and user-friendly console interface
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Language: Java
 - IDE: VS Code (or any Java-supported IDE)
-- Java Version: JDK 17+ recommended
+
 
 
 
