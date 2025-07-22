@@ -3,7 +3,7 @@ public class main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-                //  student info
+                //  student information
         System.out.print("Enter student name: ");
         String name = input.nextLine();
 
@@ -43,7 +43,7 @@ public class main {
             grade = "F (Fail)";
         }
 
-        // Display result
+                   // Display result
         System.out.println("\n--- Student Report ---");
         System.out.println("Name: " + name);
         System.out.println("Roll Number: " + rollNo);
